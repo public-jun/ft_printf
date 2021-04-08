@@ -1,0 +1,25 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_OUTPUT_EXCMD	mixed	/number, pattern, mixed, or combineV2/
+!_TAG_OUTPUT_FILESEP	slash	/slash or backslash/
+!_TAG_OUTPUT_MODE	u-ctags	/u-ctags or e-ctags/
+!_TAG_PATTERN_LENGTH_LIMIT	96	/0 for no limit/
+!_TAG_PROC_CWD	/Users/nakahodojunya/42/ft_printf/src/	//
+!_TAG_PROGRAM_AUTHOR	Universal Ctags Team	//
+!_TAG_PROGRAM_NAME	Universal Ctags	/Derived from Exuberant Ctags/
+!_TAG_PROGRAM_URL	https://ctags.io/	/official site/
+!_TAG_PROGRAM_VERSION	5.9.0	/0837c42/
+check_field	ft_utils_print.c	/^void			check_field(t_specs_info *info)$/;"	f	typeref:typename:void
+ft_branch_by_specs	ft_specs_print.c	/^void				ft_branch_by_specs(t_specs_info *info, int *n, va_list *ap)$/;"	f	typeref:typename:void
+ft_error_print	ft_error_print.c	/^void			ft_error_print(int *n)$/;"	f	typeref:typename:void
+ft_init_specs_info	ft_printf.c	/^static void			ft_init_specs_info(t_specs_info *specs_info)$/;"	f	typeref:typename:void	file:
+ft_prc_per	ft_printf.c	/^static void			ft_prc_per(const char **fmt, int *n, va_list *ap)$/;"	f	typeref:typename:void	file:
+ft_print_c	ft_print_c.c	/^void			ft_print_c(t_specs_info *info, int *n, va_list *ap)$/;"	f	typeref:typename:void
+ft_print_s	ft_print_s.c	/^void				ft_print_s(t_specs_info *info, int *n, va_list *ap)$/;"	f	typeref:typename:void
+ft_print_str	ft_printf.c	/^static void			ft_print_str(const char **start, const char **fmt, int *n)$/;"	f	typeref:typename:void	file:
+ft_printf	ft_printf.c	/^int					ft_printf(const char *fmt, ...)$/;"	f	typeref:typename:int
+ft_store_acc	ft_store_specs_info.c	/^int			ft_store_acc(const char **fmt, t_specs_info *info,$/;"	f	typeref:typename:int
+ft_store_field	ft_store_specs_info.c	/^void			ft_store_field(const char **fmt, t_specs_info *info,$/;"	f	typeref:typename:void
+ft_store_flag	ft_store_specs_info.c	/^void			ft_store_flag(const char **fmt, t_specs_info *info)$/;"	f	typeref:typename:void
+ft_store_specs	ft_store_specs_info.c	/^void				ft_store_specs(const char **fmt , t_specs_info *info)$/;"	f	typeref:typename:void
+make_print_str	ft_print_c.c	/^static char			*make_print_str(t_specs_info *info, va_list *ap,$/;"	f	typeref:typename:char *	file:
